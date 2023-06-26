@@ -3,7 +3,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #0008ff28;
+	background-color: #25360028;
 }
 
 * {
@@ -54,7 +54,7 @@ body {
 
 .creaBlock {
 	width: var(--sizeCreaBlock);
-	background-color: #fac57d;
+	background-color: #2f5e00;
 	padding: 50px 20px 20px 20px;
 	border-radius: 7px;
 	position: relative;
@@ -81,7 +81,7 @@ body {
 	left: 10%;
 	width: calc(var(--sizeCreaBlock) * 2);
 	height: calc(var(--sizeCreaBlock) * 2);
-	background-color: #f23942;
+	background-color: #e9b534;
 	transform: rotateZ(70deg);
 	z-index: -1;
 }
@@ -250,11 +250,11 @@ body {
 }
 
 .creaBlockPrez:nth-child(1) .lineSeparator {
-	background-color: var(--arc-orange);
+	background-color: var(--arc-jaune);
 }
 
 .creaBlockPrez:nth-child(2) .lineSeparator {
-	background-color: var(--arc-rose);
+	background-color: var(--arc-jaune);
 }
 
 .creaBlockPrez:nth-child(3) .lineSeparator {
@@ -262,11 +262,11 @@ body {
 }
 
 .creaBlockPrez:nth-child(4) .lineSeparator {
-	background-color: var(--arc-vert);
+	background-color: var(--arc-jaune);
 }
 
 .creaBlockPrez:nth-child(5) .lineSeparator {
-	background-color: var(--arc-blue);
+	background-color: var(--arc-jaune);
 }
 
 /* –––––––––––––––––––– */

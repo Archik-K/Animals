@@ -4,12 +4,12 @@
 
 .filter-block__title {
 	text-align: center;
-	background-color: #3c1f89;
+	background-color: #518f19;
 	margin: 0 20px 20px 20px;
 	padding: 20px 0;
 	color: #f7f9f2;
 	border-radius: 10px;
-	box-shadow: 15px 10px 20px 10px rgb(109 0 255 / 35%);
+	box-shadow: 15px 10px 20px 10px rgba(158, 255, 149, 0.35);
 	margin-top: 40px;
 }
 
