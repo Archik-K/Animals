@@ -11,6 +11,18 @@
 	margin-top: 30px;
 }
 
+.buttonup {
+	width: 88px;
+	height: 118px;
+	position: fixed;
+	bottom: 20px;
+	right: 50px;
+}
+.lifting_up {
+	width: 80px;
+	height: 90px;
+}
+
 .nomber1,
 .nomber2,
 .nomber3,
