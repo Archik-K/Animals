@@ -22,7 +22,29 @@
 	width: 80px;
 	height: 90px;
 }
-
+.img_top {
+	width: 87px;
+	height: 76px;
+}
+.button {
+	display: block;
+	background: center no-repeat;
+	height: 33px;
+	width: 32px;
+	position: fixed;
+	bottom: 72px;
+	right: 58px;
+	z-index: 1;
+}
+.cap {
+	background-color: #dcdfd7;
+	height: 149px;
+	width: 129px;
+	position: absolute;
+	bottom: -18px;
+	right: 10px;
+	z-index: 2;
+}
 .nomber1,
 .nomber2,
 .nomber3,
