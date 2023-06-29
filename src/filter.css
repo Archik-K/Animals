@@ -113,8 +113,9 @@
 	max-width: 100%;
 	margin-top: 20px;
 	padding: 20px 150px;
-	border: 1px rgb(206, 206, 206) solid;
-	box-shadow: 15px 10px 20px 10px rgb(240, 240, 240);
+	border: 1px rgb(72 102 0) solid;
+	box-shadow: 5px 4px 25px 4px rgb(33 98 0 / 28%);
+	background-color: #f3f20b1c;
 	border-radius: 10px;
 	display: flex;
 	justify-content: space-between;
