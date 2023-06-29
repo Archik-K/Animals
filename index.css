@@ -160,7 +160,7 @@ a.navigation__link_2:hover:after {
 /* ____________REGISTRATION FORM__________ */
 
 .registration-form {
-	margin: 0 auto;
+	margin: 100px auto 0 auto;
 	padding: 1%;
 	width: 70%;
 	background-color: #f7f9f2;
@@ -252,6 +252,7 @@ footer {
 	display: flex;
 	justify-content: space-around;
 	padding: 1.2%;
+	margin: 10px 0 0 0;
 }
 footer a {
 	color: white;
