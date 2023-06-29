@@ -241,6 +241,7 @@ a:hover {
 }
 
 /* ____________FOOTER__________ */
+
 footer {
 	position: relative;
 	bottom: 0;
@@ -254,12 +255,20 @@ footer {
 	padding: 1.2%;
 	margin: 10px 0 0 0;
 }
+
+.footer_info_about_us,
+.footer_info_where_to_find_us,
+.footer_info_I_want-to_become_a_nanny {
+	font-size: 18px;
+	font-weight: 500;
+	color: #4e0d00;
+}
 footer a {
-	color: white;
+	color: #700000;
 }
 footer a:hover {
 	text-decoration: none;
-	color: rgba(243, 243, 243, 0.697);
+	color: #960000;
 }
 footer img {
 	max-width: 35px;
