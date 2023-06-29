@@ -1,4 +1,97 @@
 /* ____________HEADER__________ */
+.header h2 {
+	vertical-align: center;
+	text-align: center;
+}
+
+.header img {
+	margin-left: 30px;
+	max-width: 50px;
+}
+
+* {
+	font-family: "Raleway";
+	box-sizing: border-box;
+}
+
+.top-nav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	/* background-color: #00BAF0; */
+	background: linear-gradient(to left, #4db300cf, #fdaf00a6);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: #fff;
+	height: 80px;
+	padding: 1em;
+}
+
+.navigation {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+}
+.navigation a:hover {
+	color: #700000;
+}
+a.navigation__link_1:before,
+a.navigation__link_2:before,
+a.navigation__link_3:before,
+a.navigation__link_4:before {
+	content: "";
+	display: block;
+	height: 1px; /* Высота линии */
+	background: #4e0d00; /* Цвет линии */
+	width: 43px; /* Ширина линии до наведения */
+	margin: 0 auto 10px; /* Отступ с боков по центру и снизу */
+	transition: 1s; /* Время, за которое линия возвращается после наведения */
+}
+a.navigation__link_1:hover:before,
+a.navigation__link_3:hover:before,
+a.navigation__link_4:hover:before {
+	width: 100px; /* Ширина линии при наведении */
+	transition: ease-out 1s; /* Время, за которое линия расширяется при наведении */
+}
+
+a.navigation__link_2:hover:before {
+	width: 90px; /* Ширина линии при наведении */
+	transition: ease-out 1s; /* Время, за которое линия расширяется при наведении */
+}
+/*  CSS код для линии под заголовком */
+a.navigation__link_1:after,
+a.navigation__link_2:after,
+a.navigation__link_3:after,
+a.navigation__link_4:after {
+	content: "";
+	display: block;
+	height: 1px; /* Высота линии */
+	background: #4e0d00; /* Цвет линии */
+	width: 43px; /* Ширина линии до наведения */
+	margin: 10px auto 0; /* Отступ с боков по центру и сверху */
+	transition: 1s; /* Время, за которое линия возвращается после наведения */
+}
+a.navigation__link_1:hover:after,
+a.navigation__link_3:hover:after,
+a.navigation__link_4:hover:after {
+	width: 100px; /* Ширина линии при наведении */
+	transition: ease-out 1s; /* Время, за которое линия расширяется при наведении */
+}
+a.navigation__link_2:hover:after {
+	width: 90px; /* Ширина линии при наведении */
+	transition: ease-out 1s; /* Время, за которое линия расширяется при наведении */
+}
+
+.navigation__link_1,
+.navigation__link_2,
+.navigation__link_3,
+.navigation__link_4 {
+	font-size: 18px;
+	font-weight: 500;
+	color: #4e0d00;
+	padding: 0 7% 0 7%;
+	text-align: center; /* Текст по центру */
+}
 
 /* ____________FOOTER__________ */
 
@@ -94,100 +187,6 @@ a:hover {
 }
 
 @import url(https://fonts.googleapis.com/css?family=Raleway);
-
-.header h2 {
-	vertical-align: center;
-	text-align: center;
-}
-
-.header img {
-	margin-left: 30px;
-	max-width: 50px;
-}
-
-* {
-	font-family: "Raleway";
-	box-sizing: border-box;
-}
-
-.top-nav {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-between;
-	/* background-color: #00BAF0; */
-	background: linear-gradient(to left, #4db300cf, #fdaf00a6);
-	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	color: #fff;
-	height: 80px;
-	padding: 1em;
-}
-
-.navigation {
-	display: flex;
-	width: 100%;
-	justify-content: space-evenly;
-}
-.navigation a:hover {
-	color: #700000;
-}
-a.navigation__link_1:before,
-a.navigation__link_2:before,
-a.navigation__link_3:before,
-a.navigation__link_4:before {
-	content: "";
-	display: block;
-	height: 1px; /* Высота линии */
-	background: #4e0d00; /* Цвет линии */
-	width: 43px; /* Ширина линии до наведения */
-	margin: 0 auto 10px; /* Отступ с боков по центру и снизу */
-	transition: 1s; /* Время, за которое линия возвращается после наведения */
-}
-a.navigation__link_1:hover:before,
-a.navigation__link_3:hover:before,
-a.navigation__link_4:hover:before {
-	width: 100px; /* Ширина линии при наведении */
-	transition: ease-out 1s; /* Время, за которое линия расширяется при наведении */
-}
-
-a.navigation__link_2:hover:before {
-	width: 90px; /* Ширина линии при наведении */
-	transition: ease-out 1s; /* Время, за которое линия расширяется при наведении */
-}
-/*  CSS код для линии под заголовком */
-a.navigation__link_1:after,
-a.navigation__link_2:after,
-a.navigation__link_3:after,
-a.navigation__link_4:after {
-	content: "";
-	display: block;
-	height: 1px; /* Высота линии */
-	background: #4e0d00; /* Цвет линии */
-	width: 43px; /* Ширина линии до наведения */
-	margin: 10px auto 0; /* Отступ с боков по центру и сверху */
-	transition: 1s; /* Время, за которое линия возвращается после наведения */
-}
-a.navigation__link_1:hover:after,
-a.navigation__link_3:hover:after,
-a.navigation__link_4:hover:after {
-	width: 100px; /* Ширина линии при наведении */
-	transition: ease-out 1s; /* Время, за которое линия расширяется при наведении */
-}
-a.navigation__link_2:hover:after {
-	width: 90px; /* Ширина линии при наведении */
-	transition: ease-out 1s; /* Время, за которое линия расширяется при наведении */
-}
-
-.navigation__link_1,
-.navigation__link_2,
-.navigation__link_3,
-.navigation__link_4 {
-	font-size: 18px;
-	font-weight: 500;
-	color: #4e0d00;
-	padding: 0 7% 0 7%;
-	text-align: center; /* Текст по центру */
-}
 
 /* ____________PART OF PAIN__________ */
 .ball {
