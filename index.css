@@ -254,7 +254,6 @@ footer {
 }
 
 .footer_info_about_us,
-.footer_info_where_to_find_us,
 .footer_info_I_want-to_become_a_nanny {
 	font-size: 18px;
 	font-weight: 500;
@@ -268,7 +267,14 @@ footer a:hover {
 	color: #960000;
 }
 footer img {
-	max-width: 35px;
+	max-width: 45px;
 	opacity: 0.7;
 	padding-left: 5px;
+}
+
+.footer_info_page_for_the_become_a_babysitter_form {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 1.2%;
+	margin: 10px 0 0 0;
 }
