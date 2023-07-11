@@ -112,6 +112,39 @@ a.navigation__link_2:hover:after {
 	text-align: center; /* Текст по центру */
 }
 
+/* _____________MAIN____________ */
+.main {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	height: 100%;
+}
+
+.a_paragraph_of_text_for_the_main_block_about_nannies_1,
+.a_paragraph_of_text_for_the_main_block_about_nannies_2,
+.a_paragraph_of_text_for_the_main_block_about_nannies_4,
+.a_paragraph_of_text_for_the_main_block_about_nannies_5,
+.a_paragraph_of_text_for_the_main_block_about_nannies_6,
+.a_paragraph_of_text_for_the_main_block_about_nannies_7,
+.a_paragraph_of_text_for_the_main_block_about_nannies_8,
+.a_paragraph_of_text_for_the_main_block_about_nannies_9,
+.a_paragraph_of_text_for_the_main_block_about_nannies_10 {
+	margin: 0 0 0 0;
+}
+
+.main_title {
+	text-align: center;
+}
+.a_paragraph_of_text_for_the_main_block_about_nannies_3 {
+	height: 5vh;
+	margin-top: 1%;
+	margin-bottom: 0%;
+}
+.main_block_text {
+	width: 90vw;
+	padding: 2% 8% 0 8%;
+}
 /* ____________FOOTER__________ */
 
 .client_pain {
