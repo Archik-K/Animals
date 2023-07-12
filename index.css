@@ -14,6 +14,9 @@
 	box-sizing: border-box;
 }
 
+.block_header {
+	text-align: center;
+}
 #scrollToTopButton {
 	display: none;
 	position: fixed;
@@ -112,6 +115,10 @@ a.navigation__link_2:hover:after {
 	text-align: center; /* Текст по центру */
 }
 
+.div_block_text {
+	width: 90vw;
+	padding: 2% 8% 0 8%;
+}
 /* _____________MAIN____________ */
 .main {
 	display: flex;
