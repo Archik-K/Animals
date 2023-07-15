@@ -22,9 +22,9 @@
 			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
 			crossorigin="anonymous"
 		/>
-		<link rel="stylesheet" href="normalize.css" />
+		<link rel="stylesheet" href="./sass/normalize.css" />
 		<link rel="stylesheet" href="./src/filter.css" />
-		<link rel="stylesheet" href="nannys-cards.css" />
+		<link rel="stylesheet" href="./nannys-cards.css" />
 		<title>Document</title>
 		<!-- Цветовая с шариками 1803, желтый из коктейлей -->
 	</head>
@@ -103,106 +103,107 @@
 					домашних питомцев!🤗
 				</p>
 			</div>
-
-			<div class="registration-form" id="registration-forms_yakor">
-				<div class="registration-form-header-container">
-					<h2 class="registration-form-header">
-						Оформить заявку "Стать няней"
-					</h2>
-				</div>
-				<div class="mb-3">
-					<label for="nameForm" class="form-label">Имя</label>
-					<input
-						type="name"
-						class="form-control"
-						id="nameForm"
-						placeholder="Ваше имя"
-					/>
-				</div>
-				<select class="form-select mb-3" aria-label=".form-select-lg example">
-					<option selected>Выберите за кем будете ухаживать</option>
-					<option value="1">Котейка</option>
-					<option value="2">Пёсель</option>
-					<option value="3">Морская свинка</option>
-					<option value="4">Хомячок</option>
-					<option value="5">Змеюк</option>
-					<option value="6">Павук</option>
-					<option value="7">Лисичка</option>
-					<option value="8">Суррикат</option>
-				</select>
-				<div class="mb-3">
-					<label for="phoneForm" class="form-label">Телефон</label>
-					<input
-						type="tel"
-						class="form-control"
-						id="phoneForm"
-						placeholder="+79012345678"
-					/>
-				</div>
-				<div class="mb-3">
-					<label class="form-label">Предпочтительный способ связи</label>
-					<div class="form-check">
-						<input
-							class="form-check-input"
-							type="radio"
-							name="flexRadioDefault"
-							id="flexRadioDefault1"
-						/>
-						<label class="form-check-label" for="flexRadioDefault1">
-							Мобильная связь
-						</label>
+			<form class="form2">
+				<div class="registration-form" id="registration-forms_yakor">
+					<div class="registration-form-header-container">
+						<h2 class="registration-form-header">
+							Оформить заявку "Стать няней"
+						</h2>
 					</div>
-					<div class="form-check">
+					<div class="mb-3">
+						<label for="nameForm" class="form-label">Имя</label>
 						<input
-							class="form-check-input"
-							type="radio"
-							name="flexRadioDefault"
-							id="flexRadioDefault2"
-							checked
+							type="name"
+							class="form-control"
+							id="nameForm"
+							placeholder="Ваше имя"
 						/>
-						<label class="form-check-label" for="flexRadioDefault2">
-							Мессенджер
-						</label>
+					</div>
+					<select class="form-select mb-3" aria-label=".form-select-lg example">
+						<option selected>Выберите за кем будете ухаживать</option>
+						<option value="1">Котейка</option>
+						<option value="2">Пёсель</option>
+						<option value="3">Морская свинка</option>
+						<option value="4">Хомячок</option>
+						<option value="5">Змеюк</option>
+						<option value="6">Павук</option>
+						<option value="7">Лисичка</option>
+						<option value="8">Суррикат</option>
+					</select>
+					<div class="mb-3">
+						<label for="phoneForm" class="form-label">Телефон</label>
+						<input
+							type="tel"
+							class="form-control"
+							id="phoneForm"
+							placeholder="+79012345678"
+						/>
+					</div>
+					<div class="mb-3">
+						<label class="form-label">Предпочтительный способ связи</label>
+						<div class="form-check">
+							<input
+								class="form-check-input"
+								type="radio"
+								name="flexRadioDefault"
+								id="flexRadioDefault1"
+							/>
+							<label class="form-check-label" for="flexRadioDefault1">
+								Мобильная связь
+							</label>
+						</div>
+						<div class="form-check">
+							<input
+								class="form-check-input"
+								type="radio"
+								name="flexRadioDefault"
+								id="flexRadioDefault2"
+								checked
+							/>
+							<label class="form-check-label" for="flexRadioDefault2">
+								Мессенджер
+							</label>
+						</div>
+					</div>
+					<div class="input-group mb-3">
+						<span class="input-group-text" id="basic-addon1">@</span>
+						<input
+							type="text"
+							class="form-control"
+							placeholder="Username"
+							aria-label="Username"
+							aria-describedby="basic-addon1"
+						/>
+					</div>
+					<div class="mb-3">
+						<label for="emailForm" class="form-label">Email</label>
+						<input
+							type="email"
+							class="form-control"
+							id="emailForm"
+							placeholder="name@example.com"
+						/>
+					</div>
+					<div class="mb-3">
+						<p>
+							Укажите свою дату рождения: <input type="date" name="calendar" />
+						</p>
+					</div>
+					<div class="mb-3">
+						<label for="commentsForm" class="form-label">Дополнительно</label>
+						<textarea
+							class="form-control"
+							id="commentsForm"
+							rows="3"
+							placeholder="Любая дополнительная информация, которую нам необходимо знать. Опишите опыт работы, если он имеется."
+						></textarea>
+					</div>
+					<div class="registration-form-button-container">
+						<button class="btn myButton" type="submit">Отправить</button>
+						<div></div>
 					</div>
 				</div>
-				<div class="input-group mb-3">
-					<span class="input-group-text" id="basic-addon1">@</span>
-					<input
-						type="text"
-						class="form-control"
-						placeholder="Username"
-						aria-label="Username"
-						aria-describedby="basic-addon1"
-					/>
-				</div>
-				<div class="mb-3">
-					<label for="emailForm" class="form-label">Email</label>
-					<input
-						type="email"
-						class="form-control"
-						id="emailForm"
-						placeholder="name@example.com"
-					/>
-				</div>
-				<div class="mb-3">
-					<p>
-						Укажите свою дату рождения: <input type="date" name="calendar" />
-					</p>
-				</div>
-				<div class="mb-3">
-					<label for="commentsForm" class="form-label">Дополнительно</label>
-					<textarea
-						class="form-control"
-						id="commentsForm"
-						rows="3"
-						placeholder="Любая дополнительная информация, которую нам необходимо знать. Опишите опыт работы, если он имеется."
-					></textarea>
-				</div>
-				<div class="registration-form-button-container">
-					<button class="btn myButton" type="submit">Отправить</button>
-					<div></div>
-				</div>
-			</div>
+			</form>
 		</main>
 		<footer>
 			<div class="footer_info_page_for_the_become_a_babysitter_form">

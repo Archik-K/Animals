@@ -8,39 +8,26 @@
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
 			rel="stylesheet"
 			integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-			crossorigin="anonymous"
-		/>
-		<link rel="stylesheet" href="index.css" />
-		<link
-			rel="shortcut icon"
-			href="/src/pictures/logo_nav.png"
-			type="logo/png"
-		/>
+			crossorigin="anonymous"/>
+		<link rel="shortcut icon" href="/src/pictures/logo_nav.png" type="logo/png"/>
 		<!-- Цветовая с шариками 1803, желтый из коктейлей -->
-		<link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-			crossorigin="anonymous"
-		/>
-		<link rel="stylesheet" href="normalize.css" />
+		<link	rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"	crossorigin="anonymous"	/>
+		<link rel="stylesheet" href="./index.css" />
 		<link rel="stylesheet" href="./src/filter.css" />
-		<link rel="stylesheet" href="nannys-cards.css" />
+		<link rel="stylesheet" href="./nannys-cards.css" />
+		<link rel="stylesheet" href="./sass/app.css" />
+		<link rel="stylesheet" href="./sass/normalize.css" />
 		<title>Document</title>
-		<!-- Цветовая с шариками 1803, желтый из коктейлей -->
 	</head>
-
 	<body>
 		<header class="header">
 			<section class="top-nav">
 				<div><img src="./src/pictures/pet (1).png" /></div>
 				<div class="navigation">
-					<a href="#client_pain_yakor" class="navigation__link_1"
-						>Почему вы здесь</a
-					>
+					<a href="#client_pain_yakor" class="navigation__link_1">Почему вы здесь</a>
 					<a href="#filter_block__title_yakor" class="navigation__link_2"
-						>Найти няню</a
-					>
+						>Найти няню</a>
 					<a href="#nannys_cards" class="navigation__link_3"
 						>Те кто будут рады вам помочь</a
 					>
@@ -52,7 +39,8 @@
 		</header>
 		<button onclick="scrollToTop()" id="scrollToTopButton">Наверх</button>
 			<div class="container">
-				<h1 class="block_header">Добро пожаловать в наш мир няней для животных!</h1>
+				<div class="three">
+				<h1 class="block_header">Добро пожаловать в наш мир няней для животных!</h1></div>
 				<div
 					id="carouselExampleControls"
 					class="carousel slide"
@@ -151,7 +139,7 @@
 					<img
 						src="src/pictures/1.gif"
 						class="img_client_pain"
-						alt="новогодняя шапка"
+						alt="зверёк"
 					/>
 					Хочется уехать в отпуск, но не с кем оставить своего любимца?
 				</p>
@@ -159,7 +147,7 @@
 					<img
 						src="src/pictures/2.gif"
 						class="img_client_pain"
-						alt="новогодняя шапка"
+						alt="зверёк"
 					/>
 					Хочется громкого праздника, но питомец боится громких звуков?
 				</p>
@@ -167,45 +155,77 @@
 					<img
 						src="src/pictures/3.gif"
 						class="img_client_pain"
-						alt="новогодняя шапка"
+						alt="зверёк"
 					/>Приехали гости, у которых аллергия?
 				</p>
 				<p class="nomber4">
 					<img
 						src="src/pictures/4.gif"
 						class="img_client_pain"
-						alt="новогодняя шапка"
+						alt="зверёк"
 					/>Хочется немного безответственности в праздник?
 				</p>
 			</div>
-			<div class="div_block_text">
+			<div class="container_with_text">
+				<div class="a_card_with_a_description_of_the_site ">
+				  <h1 class="title">Мы - команда профессиональных нянь, предлагающих высококачественные услуги по уходу за домашними питомцами.</h1>
+				  <p class="subtitle">Мы понимаем, что ваше животное - это не просто домашний любимец, а важная часть вашей семьи. Поэтому мы стремимся предоставить им заботу и внимание, сопоставимые с вашими.
+				</p>
+				 
+				</div>
+				<div class="blob"></div>
+				<p class="transparent-background"></p>
+			<div class="cards">
+				<article class="card">
 				
-<p class="a_paragraph_describing_the_purpose_of_the_site_1">Мы - команда профессиональных нянь, предлагающих высококачественные услуги по уходу за домашними питомцами. Мы понимаем, что ваше животное - это не просто домашний любимец, а важная часть вашей семьи. Поэтому мы стремимся предоставить им заботу и внимание, сопоставимые с вашими.
+				  <div class="card__content">
+					<h2 class="card_title">Прогулки и активные игры</h2>
+					<p>Мы уделяем большое внимание физической активности животного. Мы проводим прогулки с вашим питомцем, заботимся о его физической форме и помогаем удовлетворить его инстинкт путешествия.
+					</p>
+				  
+				</article>
+				
+				<article class="card">
+
+				
+				  <div class="card__content">
+					<h2 class="card_title"> Кормление и уход за гигиеной</h2>
+					<p>Мы придерживаемся ваших инструкций относительно рациона и режима кормления. Кроме того, мы обеспечиваем полноценный уход за шерстью, когтями, зубами и ушами животного.
+					</p>
+					</div>
+				</article>
+				
+				<article class="card">
+				  <div class="card__content">
+					<h2 class="card_title">Игровые и умственные тренировки</h2>
+					<p>Мы верим, что предоставление стимулирующей среды для животного очень важно для физического и эмоционального благополучия. Поэтому мы играем с вашим питомцем, обучаем его командам и предоставляем игровые занятия, чтобы он чувствовал себя не только ухоженным, но и счастливым.
+					</p>
+				  </div>
+				</article>
+				<article class="card">
+					<div class="card__content">
+					  <h2 class="card_title">Медицинская помощь и контроль здоровья</h2>
+					  <p>Наша команда нянь обладает знаниями и опытом в области медицинского ухода за животными. Мы следим за их здоровьем, даем необходимые медицинские процедуры и контролируем предписания ветеринара.
+					</p>
+					</div>
+				  </article>
+			  </div>
+			  <div class="a_card_with_a_description_of_the_site_2">
+				<p class="a_paragraph_describing_the_purpose_of_the_site_2">
+					У нас в команде работают настоящие любители животных, которые обладают не только обширными знаниями и опытом в уходе за различными видами животных, но и страстью к своей работе. Мы понимаем, что каждое животное имеет свои индивидуальные потребности, и мы готовы предоставить ему индивидуальный и качественный уход.
+					</p>
+				<p class="the_dividing_line_in_the_second_block_of_text">	Мы гарантируем, что ваш питомец будет находиться в лучших руках и получит всю заботу, которую заслуживает. Вы можете быть уверены, что, оставив своего любимца под нашим присмотром, вы получите качественный и надежный сервис.
 </p>
-<p class="a_paragraph_describing_the_purpose_of_the_site_2">
-<br>У нас в команде работают настоящие любители животных, которые обладают не только обширными знаниями и опытом в уходе за различными видами животных, но и страстью к своей работе. Мы понимаем, что каждое животное имеет свои индивидуальные потребности, и мы готовы предоставить ему индивидуальный и качественный уход.
+
+<p class="the_last_paragraph_of_the_text_block_2">
+Не откладывайте свою заботу о животном на потом. Свяжитесь с нами сегодня, и мы найдем идеального няню для вашего питомца. Мы с нетерпением ждем возможности помочь вам и вашему любимцу!
 </p>
-<p class="a_paragraph_describing_the_purpose_of_the_site_3">
-<br>Наша услуга няни для животных включает в себя:
-</p>
-<p class="a_paragraph_describing_the_purpose_of_the_site_4">
-<br>1.<strong> Прогулки и активные игры</strong>: Мы уделяем большое внимание физической активности животного. Мы проводим прогулки с вашим питомцем, заботимся о его физической форме и помогаем удовлетворить его инстинкт путешествия.
-</p>
-<p class="a_paragraph_describing_the_purpose_of_the_site_5">
-<br>2.<strong> Кормление и уход за гигиеной</strong>: Мы придерживаемся ваших инструкций относительно рациона и режима кормления. Кроме того, мы обеспечиваем полноценный уход за шерстью, когтями, зубами и ушами животного.
-</p>
-<p class="a_paragraph_describing_the_purpose_of_the_site_6">
-<br>3. <strong>Игровые и умственные тренировки</strong>: Мы верим, что предоставление стимулирующей среды для животного очень важно для его физического и эмоционального благополучия. Поэтому мы играем с вашим питомцем, обучаем его командам и предоставляем игровые занятия, чтобы он чувствовал себя не только ухоженным, но и счастливым.
-</p>
-<p class="a_paragraph_describing_the_purpose_of_the_site_7">
-<br>4. <strong>Медицинская помощь и контроль здоровья</strong>: Наша команда нянь обладает знаниями и опытом в области медицинского ухода за животными. Мы следим за их здоровьем, даем необходимые медицинские процедуры и контролируем предписания ветеринара.
-</p>
-<p class="a_paragraph_describing_the_purpose_of_the_site_8">
-<br>Мы гарантируем, что ваш питомец будет находиться в лучших руках и получит всю заботу, которую заслуживает. Вы можете быть уверены, что, оставив своего любимца под нашим присмотром, вы получите качественный и надежный сервис.
-</p>
-<p class="a_paragraph_describing_the_purpose_of_the_site_9">
-<br>Не откладывайте свою заботу о животном на потом. Свяжитесь с нами сегодня, и мы найдем идеального няню для вашего питомца. Мы с нетерпением ждем возможности помочь вам и вашему любимцу!
-</p>		</div>
+				
+			   
+			  </div>
+			  </div>
+			
+	
 			<div>
 				<!-- ______________ЗНАЕМ___РЕШЕНИЕ________________ -->
 			</div>
@@ -391,12 +411,13 @@
 		</div>
 
 		<div id="nannys_cards">
+			<h5 class="nannys_cards_title">Те кто будут рады вам помочь</h5>
 			<!-- ______________СЛАЙДЕР С КАРТОЧКАМИ НЯНЬ_______________ заполняем с бутстрапа 5шт-->
 		</div>
-
+<form>
 		<div class="registration-form" id="registration-forms_yakor">
 			<div class="registration-form-header-container">
-				<h2 class="registration-form-header">Оформить заявку</h2>
+				<h2 class="registration-form-header">Оформить заявку на передержку</h2>
 			</div>
 			<div class="mb-3">
 				<label for="nameForm" class="form-label">Имя</label>
@@ -506,10 +527,10 @@
 			</div>
 			<div class="registration-form-button-container">
 				<button class="btn myButton" type="submit">Отправить</button>
-				<div></div>
+			
 			</div>
 		</div>
-
+	</form>
 		<script
 			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -525,7 +546,6 @@
 			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 			crossorigin="anonymous"
 		></script>
-
 		<footer>
 			<div class="footer_info">
 				<a href="#menu" class="footer_info_about_us">О нас</a>
@@ -535,7 +555,6 @@
 				</div>
 			</div>
 		</footer>
-
 		<script
 			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
