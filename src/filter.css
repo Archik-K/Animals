@@ -70,17 +70,6 @@
 	margin: 20px 0px 0px 0px;
 }
 
-/* .filter__cities {
-  width: 240px;
-  height: 40px;
-  border: 1px solid #bdbdbd;
-  border-radius: 10px;
-}
-
-.filter__cities:hover {
-  cursor: pointer;
-} */
-
 .filter__card-input:hover {
 	cursor: pointer;
 }

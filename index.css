@@ -167,14 +167,6 @@ a.navigation__link_2:hover:after {
 	height: 100%;
 }
 
-.main_title {
-	text-align: center;
-}
-
-.main_block_text {
-	width: 90vw;
-	padding: 2% 8% 0 8%;
-}
 .the_last_paragraph_of_the_text_block_2 {
 	padding: 10px 0 0 0;
 }
@@ -194,8 +186,7 @@ a.navigation__link_2:hover:after {
 }
 
 .a_card_with_a_description_of_the_site {
-	height: 15vh;
-	width: 85vw;
+	width: 87vw;
 	background: rgba(255, 255, 255, 0.15);
 	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 	backdrop-filter: blur(18px);
@@ -208,8 +199,7 @@ a.navigation__link_2:hover:after {
 	margin: 0 0 37px 0;
 }
 .a_card_with_a_description_of_the_site_2 {
-	height: 30vh;
-	width: 85vw;
+	width: 87vw;
 	background: rgba(255, 255, 255, 0.15);
 	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 	backdrop-filter: blur(18px);
@@ -220,6 +210,42 @@ a.navigation__link_2:hover:after {
 	z-index: 10;
 	color: #4e0d10;
 	margin: 38px 0 37px 0;
+}
+
+.a_card_with_a_description_of_the_site_second_page {
+	width: 86vw;
+	background: rgba(255, 255, 255, 0.15);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(18px);
+	-webkit-backdrop-filter: blur(18px);
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	border-radius: 1rem;
+	padding: 1.5rem;
+	z-index: 10;
+	color: #4e0d10;
+	margin: 30px 0 37px 0;
+}
+.a_card_with_a_description_of_the_site_second_page_2 {
+	width: 85vw;
+	background: rgba(255, 255, 255, 0.15);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(18px);
+	-webkit-backdrop-filter: blur(18px);
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	border-radius: 1rem;
+	padding: 1.5rem;
+	z-index: 10;
+	color: #4e0d10;
+	margin: 44px 0 37px 0;
+}
+.the_dividing_line_in_the_second_block_of_text_2 {
+	padding-bottom: 0.5rem;
+	border-bottom: 2px solid rgb(78, 13, 0);
+	margin-bottom: 1rem;
+	font-size: 1rem;
+	line-height: 2.4rem;
+	font-family: Rubik, sans-serif;
+	font-weight: 300;
 }
 
 .the_dividing_line_in_the_second_block_of_text {
@@ -268,7 +294,6 @@ a.navigation__link_2:hover:after {
 		transform: translate(-100px, -50px) rotate(-90deg);
 		border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
 	}
-
 	to {
 		transform: translate(500px, 100px) rotate(-10deg);
 		border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
@@ -280,7 +305,6 @@ a.navigation__link_2:hover:after {
 		transform: translate(-100px, -50px) rotate(-90deg);
 		border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
 	}
-
 	to {
 		transform: translate(500px, 100px) rotate(-10deg);
 		border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
@@ -354,10 +378,7 @@ a.navigation__link_2:hover:after {
 	display: flex;
 	justify-content: center;
 }
-.myButton {
-	background-color: hsl(108, 19%, 63%);
-	color: white;
-}
+
 a:hover {
 	text-decoration: none !important;
 }
